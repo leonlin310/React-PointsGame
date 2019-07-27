@@ -6,13 +6,7 @@ import React from "react";
 function ScoreBody(props) {
   return (
     <div className="card-body">
-      <p className="card-text">Score: {props.score}</p>
-      <button className="btn btn-primary" onClick={props.handleIncrement}>
-        Increment
-      </button>{""}
-      <button className="btn btn-danger" onClick={props.handleDecrement}>
-        Decrement
-      </button>
+      <h1 className="card-text">Score: {props.score}</h1>
     </div>
   );
 }
